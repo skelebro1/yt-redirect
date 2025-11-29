@@ -14,5 +14,5 @@
 
 ## Installation
 1. Enable Scriptlets in Brave (`brave://settings/shields/filters`) and turn on Developer Mode
-2. Add new scriptlet named `yt-home-redirect` and paste the code from `scriptlets/yt-home-redirect.js`
-3. Add the filter rule from `filters/yt-filter-rule.txt`
+2. Add new scriptlet named `yt-redirect` and paste the code from `scriptlets/yt-redirect.js`
+3. Add the filter rule from `filters/yt-filter.txt`
