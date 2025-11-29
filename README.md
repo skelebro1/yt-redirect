@@ -1,7 +1,7 @@
 # A simple Brave browser scriptlet + filter rule that automatically redirects the YouTube homepage to the Subscriptions feed.
 
 ## Features
-- Redirects only when visiting the root YouTube URL:
+- Redirects **only** when visiting the root YouTube URL:
   - `https://youtube.com`
   - `https://youtube.com/`
   - `https://www.youtube.com`
