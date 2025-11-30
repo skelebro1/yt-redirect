@@ -1,2 +1,2 @@
-www.youtube.com##+js(yt-redirect)
-youtube.com##+js(yt-redirect):style()
+www.youtube.com##+js(user-yt-redirect)
+youtube.com##+js(user-yt-redirect):style()
