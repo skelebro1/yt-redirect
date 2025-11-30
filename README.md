@@ -1,18 +1,20 @@
 # A simple Brave browser scriptlet + filter rule that automatically redirects the YouTube homepage to the Subscriptions feed.
 
 ## Features
-- Redirects **only** when visiting the root YouTube URL:
+- Redirects **ONLY** when visiting:
   - `https://youtube.com`
-  - `https://youtube.com/`
   - `https://www.youtube.com`
-  - `https://www.youtube.com/`
-- Does **not** redirect sub-pages:
+- Does **NOT** redirect:
   - `/watch?v=...`
-  - `/@username`
-  - `/feed/...`
-- Lightweight, no extensions needed
+  - `/@channels`
+  - `/results?...`
+  - Anything except the root homepage
 
 ## Installation
-1. Enable Scriptlets in Brave (`brave://settings/shields/filters`) and turn on Developer Mode
-2. Add new scriptlet named `yt-redirect` and paste the code from `scriptlets/yt-redirect.js`
-3. Add the filter rule from `filters/yt-filter.txt`
+1. Open **brave://settings/shields/filters**
+2. Enable **Developer Mode**
+3. Add a new scriptlet named:  
+   `yt-redirect`  
+   (Brave will automatically store it as `user-yt-redirect`)
+4. Paste the scriptlet from `scriptlets/yt-redirect.js`
+5. Add the filter rules from `filters/yt-filter.txt`
